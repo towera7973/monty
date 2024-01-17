@@ -75,7 +75,7 @@ void _mul(stack_t **stack, unsigned int line_number);
 void _mod(stack_t **stack, unsigned int line_number);
 void _pchar(stack_t **stack, unsigned int line_number);
 void _pstr(stack_t **stack, unsigned int line_number);
-
+void _rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
 /* Stack helper functions */
 stack_t *add_Newnode(stack_t **stack, const int n);
 int is_number(char *str);
