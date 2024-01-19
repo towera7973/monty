@@ -79,7 +79,7 @@ void _pstr(stack_t **stack, unsigned int line_number);
 void _rotr(stack_t **stack, __attribute__((unused)) unsigned int line_number);
 void _queue(stack_t **stack, unsigned int line_number);
 void add_queue(stack_t **stack, int n);
-void _rotl(stack_t **stack,  __attribute__((unused)) unsigned int line_number);
+void rotl(stack_t **stack, unsigned int line_count);
 /* Stack helper functions */
 stack_t *add_Newnode(stack_t **stack, const int n);
 int is_number(char *str);
